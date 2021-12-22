@@ -1,0 +1,3 @@
+drop table tab0;
+drop table tab1;
+drop table tab2;

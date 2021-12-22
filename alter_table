@@ -1,0 +1,2 @@
+alter table tab1 set tablespace space0;
+alter table tab2 set tablespace space0;

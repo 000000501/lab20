@@ -1,0 +1,3 @@
+drop tablespace space0;
+drop tablespace space1;
+drop tablespace space2;

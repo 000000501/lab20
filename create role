@@ -1,0 +1,11 @@
+CREATE ROLE ch1;
+alter role ch1 with superuser;
+alter role ch1 with superuser/password/login;
+alter role ch1 with password;
+create database ch2;
+ch2 owner ch1;
+delete database ch2;
+delete ch2;
+create database ch3 owner ch1;
+\q
+alter role ch1 with login;

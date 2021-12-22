@@ -1,0 +1,3 @@
+alter table tab0 set tablespace pg_default;
+alter table tab1 set tablespace pg_default;
+alter table tab2 set tablespace pg_default;
